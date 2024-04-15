@@ -1,0 +1,311 @@
+Author	Vismaya
+Date	21st Oct 2021
+Client Name (Optional)	Schlum
+Client Industry (Optional)	
+Role 	Data Scientist
+Topics or Tags	Python, Machine Learning, Deep Learning
+
+
+•	Iterators and generators
+•	Python constructors
+•	Map function
+•	How do you flatten an image(matrix) in a deep learning architecture
+•	Difference between semantic segmentation and segmentation
+•	Different types of pooling operations – the visual effect of applying a max pooling operation and average pooling operation on an image
+•	Math behind convolution operation – size of a particular image (128*128) after convolution operation with a 3*3 kernel
+•	Size of a 3*3 image after applying 1*1 kernel 
+•	Loss function and optimization function of region proposal network
+•	Image down sampling – why do we do down sampling
+•	Python coding: Solve the following using a for loop, by defining a function and put in inside a class
+o	#Input : a =[1,2,3]
+o	#Output : ["hello1","hello2","hello3"]
+•	Tradeoff between yolo and faster rcnn in terms of speed and accuracy
+•	About different deep learning architectures (Tensorflow, Keras, Caffe)
+•	 What are feature maps and how are they obtained
+
+
+#####################################################################################################################
+
+Author	Mahendra Kumar
+Date	14th Dec 2021
+Client Name (Optional)	Schlum
+Client Industry (Optional)	
+Role 	Data Scientist
+Topics or Tags	Python, Statistical analysis, correlation matrices ,Pandas
+
+
+1.	Count unique values in a data frame column.  
+2.	Convert a column data type to string
+3.	Obtain correlation coefficient between 2 columns in a data frame
+4.	Merge two data frame based on common column (when column name is same)
+5.	Merge two data frames base on common column name (column name is different in left and right data frame) 
+6.	Define is correlation 
+7.	What are the types of correlation coefficient??
+8.	What is the difference in Pearson correlation coefficient and spearmen correlation coefficient???
+9.	How do we deal with categorical variables for statistical analysis???
+10.	How do you obtain correlation between 2 categorical variables? 
+11.	How do you find Correlation between one categorical variable and other numerical variables? 
+12.	 Difference between dictionary and list
+13.	How do you append a dictionary with another dictionary? 
+14.	Difference between tuples and list
+15.	Does tuple can have different data types of element
+16.	How do you read data from database directly and convert it into data frame for analysis?
+17.	How do you import file.py function into another python file?
+18.	What is generator in python 
+19.	Print index and values of a list without range function.
+
+#####################################################################################################################
+Mixed bag python interview
+
+1) Given the list below, answer the following question:
+mylist = ["Europe", "Asia", "North America", "South America", "Africa", "Australia", 2009, 2140, 12.5, 6.25]
+What is the result of max(mylist)?
+
+2.a) Quick Cheat Sheets
+2.b) why-do-we-take-n-1-when-calculating-sample-variance-why-is-it-useful
+
+3) Considering the list below, answer the following question.
+list1 = [10, 211, 99.99, 50.75, 11.5]
+Which element is sorted(list1, reverse = True)[1] ?
+
+4) Given the list below, answer the following question:
+mylist = ["Europe", "Asia", "North America", "South America", "Africa", "Australia", 2009, 2140, 12.5, 6.25]
+Who is mylist[:7]?
+
+5) Given the list below, answer the following question:
+mylist = ["Europe", "Asia", "North America", "South America", "Africa", "Australia", 2009, 2140, 12.5, 6.25]
+Who is mylist[:-6] ?
+6) Given the tuple below answer the following question.
+mytuple = (100, 250, 300, 450, 500, "Python", "Java", "C++")
+What is the result of (mytuple + (410, 430, 450, 205 * 2, 900 // 2, 445)).count(450) ?
+
+7) Given the tuple below answer the following question.
+mytuple = (100, 250, 300, 450, 500, 650, 700, 850, 900)
+What is the result of mytuple[1::3] ?
+
+8) Given the range below answer the following question.
+myrange = range(10, 16, 2)[::2]
+What is the result of list(myrange) ?
+
+9) Given the range below answer the following question.
+myrange = range(5, 15, 4)[::-1]
+What is the result of list(myrange) ?
+
+10) Considering the dictionary below (showing the population of some of the Eastern European countries) answer the following question.
+ee_countries = {"Ukraine": "43.7M", "Russia": "143.8M", "Poland": "38.1M", "Romania": "19.5M", "Bulgaria": "6.9M", "Hungary": "9.6M", "Moldova": "4.1M", "Estonia": "1.3M"}
+Which is the correct way of deleting Estonia from the dictionary?
+
+11) Considering the dictionary below (showing the population of some of the Eastern European countries) answer the following question.
+ee_countries = {"Ukraine": "43.7M", "Russia": "143.8M", "Poland": "38.1M", "Romania": "19.5M", "Bulgaria": "6.9M", "Hungary": "9.6M", "Moldova": "4.1M", "Estonia": "1.3M"}
+What is the result of max(ee_countries.keys()) ?
+
+12) Considering the dictionary below (showing the population of some of the Eastern European countries) answer the following question.
+ee_countries = {"Ukraine": "43.7M", "Russia": "143.8M", "Poland": "38.1M", "Romania": "19.5M", "Bulgaria": "6.9M", "Hungary": "9.6M", "Moldova": "4.1M", "Estonia": "1.3M"}
+What is the result of max(ee_countries.values()) ?
+
+13) What is the cause of the TypeError below?
+>>> test = {['Ukraine', 'Poland', 'Romania']: [43.7, 38.1, 19.5]}
+Traceback (most recent call last):
+ File "<pyshell#52>", line 1, in <module>
+   test = {['Ukraine', 'Poland', 'Romania']: [43.7, 38.1, 19.5]}
+TypeError: unhashable type: 'list'
+
+14) Considering the dictionary below (showing the population of some of the Eastern European countries) answer the following question.
+ee_countries = {"Ukraine": "43.7M", "Russia": "143.8M", "Poland": "38.1M", "Romania": "19.5M", "Bulgaria": "6.9M", "Hungary": "9.6M", "Moldova": "4.1M", "Estonia": "1.3M"}
+How can you add multiple key-value pairs to the dictionary, at the same time (using a single line of code) ?
+Example: 'Latvia': '1.9M', 'Lithuania': '2.8M', 'Belarus': '9.4M'
+
+15) Considering the dictionary below (showing the population of some of the Eastern European countries) answer the following question.
+ee_countries = {"Ukraine": "43.7M", "Russia": "143.8M", "Poland": "38.1M", "Romania": "19.5M", "Bulgaria": "6.9M", "Hungary": "9.6M", "Moldova": "4.1M", "Estonia": "1.3M"}
+What is the result of sorted(ee_countries.keys(), reverse = True)[1] ?
+
+
+16) What is the result of the code below?
+try:
+  t1 = "100 kilometers"
+  t2 = "2.5 hours"
+  ("With a {2} km/h speed you will travel {0} km in {1} hrs").format(t1[:3], t2[-9:-6], t1[:3]//t2[-9:-6])
+except ZeroDivisionError:
+  print("Oups! You're trying to divide by 0! :(")
+except IndexError:
+  print("You got your indexes messed up!")
+except TypeError:
+  print("You got your data types messed up!")
+
+17) What is the result of the code below?
+def my_first_function():
+  print("Hello Python!")
+
+
+18) __init__ concepts impo
+
+#####################################################################################################################
+
+Schlum Interview:
+
+Author	Amogh
+Date	22nd Nov 2021
+Client Name (Optional)	Schlum
+Client Industry (Optional)	
+Role 	MLOps Engineer
+Topics or Tags	Docker, AWS, Ops
+
+
+
+•	What is the difference between Docker and Containers?
+•	How do you restart containers on failure?
+•	How do you run a container in Docker?
+•	Can you run a program that takes 4 hours to run in AWS Lambda?
+•	What is the difference between ADD and COPY commands wrt. Dockerfile ?
+•	Experience with different AWS services such as CloudFormation or Glue?
+•	What is the schema in S3?
+•	Can the lambda written in AWS interact with other infrastructure?
+•	What is the Dockerfile setup if you want to expose the model as an API?
+•	Difference between UDF, pandas UDF and pyspark UDFs?
+•	Difference between synchronous and asynchronous request? How do you program one in Python?
+•	What is the use of a DAG (Directed Acyclic Graph) in Spark?
+•	Given the no. Of terms, print the Fibonacci sequence: Hint try both iterative and recursive methods [https://www.programiz.com/python-programming/examples/fibonacci-sequence]
+•	Given an input string, print the length of the longest common substring without any repeating characters. [https://leetcode.com/problems/longest-substring-without-repeating-characters/]
+•	Given an input string, write a function that returns the Run Length Encoded string for the input string. For example, if the input string is “ssslbbbbppiitttc”, then the function should return “s3l1b4p2i2t3c1”
+
+def encode(message):
+    encoded_message = ""
+    i = 0
+   
+    while (i <= len(message)-1):
+        
+        count = 1
+        ch = message[i]
+        j = i
+        
+        while (j < len(message)-1):
+            
+            if (message[j] == message[j+1]):
+                count = count+1
+                j = j+1
+            else:
+                break
+                
+        encoded_message = encoded_message + ch + str(count)
+        i = j+1
+        
+    return encoded_message
+  
+#Provide different values for message and test your program
+encoded_message=encode("ssslbbbbppiitttc")
+print(encoded_message)
+
+
+##########################################################################################################################
+
+Schlum interview:
+Author	Awaldeep Singh
+Date	22nd  Feb 2022
+Client Name (Optional)	Schlum
+Client Industry (Optional)	
+Role 	Data Engineer
+Topics or Tags	Cloud, SQL, Programming, Docker
+
+1.	Given a list, ls = [9,8,3,4,1,0,2,7,7,6], write a function to get nth highest element without using any inbuilt functions or sorting.
+2.	Write a python class with method to sort a list and related questions on classes, static methods, init etc.
+3.	Difference between RANK and DENSE RANK?
+4.	Difference between parquet and csv file format? How are files written in a parquet file?
+5.	Knowledge of Cloud services
+6.	What is Cursor command in SQL?
+7.	Difference between Spark vs MapReduce architecture?
+8.	Explanation of ETL pipeline
+9.	Containerization v/s virtualization
+10.	What is port redirection in docker?
+11.	Experience with data engineering?
+12.	How to create a table with Databricks storage?
+13.	Difference between SQL and NoSQL DB? 
+14.	A scenario where data keeps on changing, with adding and updating new features , would you consider SQL or NoSQL?
+15.	Difference between iterators and generators
+16.	Difference between OLAP and OLTP?
+
+###########################################################################################################################
+
+Schlum Interview:
+Author	Venkatesh
+Date	20th Dec 2021
+Client Name (Optional)	Schlum
+Client Industry (Optional)	
+Role 	MLOps Engineer
+Topics or Tags	Docker, AWS, Python
+
+•	Given an input string, write a function that returns the Run Length Encoded string for the input string. For example, if the input string is “ssslbbbbppiitttc”, then the function should return “s3l1b4p2i2t3c1”
+•	Difference b/w Iterators and Generators
+•	Knowledge on AWS Services
+•	How can we transfer data from AWS to GCP/Azure?
+•	How do you create the ETL Solution loading the data daily. currently on AWS to migrate to Azure/ GCP.
+•	Working Exp on Docker?
+•	CI/CD implementation
+•	Tools used for versioning models
+•	What is PaaS VS Faas
+
+
+###########################################################################################################################
+Schlum Interview:
+
+Author	Preeti Bhatt Gupta
+Date	25 April 2022
+Client Name (Optional)	Schlum
+Client Industry (Optional)	
+Role 	Data Scientist
+Topics or Tags	Cloud, SQL, Programming, Docker, ML
+
+
+1.	Write a Docker file.
+2.	What is randomness in Random Forest.
+3.	How bagging and boosting works.
+4.	How do you evaluate a classification and Regression in Bagging and Boosting.
+5.	How weak learners combine to from strong Learners.
+6.	How will u divide I/P data to weak learners in Ensemble Learning.
+7.	What is stemming and lemmetization.
+8.	Create a Dataframe from series.
+9.	30 pages returned , 20 are relevant , failing to return 40 other relevant pages . Create Confusion matrix.
+10.	SQL queries- Creating table , inserting to table , search usinh where and %like , case sensitive and insensitive search .
+
+###########################################################################################################################
+
+from sklearn.tree import ExtraTreeClassifier
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.svm.classes import OneClassSVM
+from sklearn.neural_network.multilayer_perceptron import MLPClassifier
+from sklearn.neighbors.classification import RadiusNeighborsClassifier
+from sklearn.neighbors.classification import KNeighborsClassifier
+from sklearn.multioutput import ClassifierChain
+from sklearn.multioutput import MultiOutputClassifier
+from sklearn.multiclass import OutputCodeClassifier
+from sklearn.multiclass import OneVsOneClassifier
+from sklearn.multiclass import OneVsRestClassifier
+from sklearn.linear_model.stochastic_gradient import SGDClassifier
+from sklearn.linear_model.ridge import RidgeClassifierCV
+from sklearn.linear_model.ridge import RidgeClassifier
+from sklearn.linear_model.passive_aggressive import PassiveAggressiveClassifier    
+from sklearn.gaussian_process.gpc import GaussianProcessClassifier
+from sklearn.ensemble.voting_classifier import VotingClassifier
+from sklearn.ensemble.weight_boosting import AdaBoostClassifier
+from sklearn.ensemble.gradient_boosting import GradientBoostingClassifier
+from sklearn.ensemble.bagging import BaggingClassifier
+from sklearn.ensemble.forest import ExtraTreesClassifier
+from sklearn.ensemble.forest import RandomForestClassifier
+from sklearn.naive_bayes import BernoulliNB
+from sklearn.calibration import CalibratedClassifierCV
+from sklearn.naive_bayes import GaussianNB
+from sklearn.semi_supervised import LabelPropagation
+from sklearn.semi_supervised import LabelSpreading
+from sklearn.discriminant_analysis import LinearDiscriminantAnalysis
+from sklearn.svm import LinearSVC
+from sklearn.linear_model import LogisticRegression
+from sklearn.linear_model import LogisticRegressionCV
+from sklearn.naive_bayes import MultinomialNB  
+from sklearn.neighbors import NearestCentroid
+from sklearn.svm import NuSVC
+from sklearn.linear_model import Perceptron
+from sklearn.discriminant_analysis import QuadraticDiscriminantAnalysis
+from sklearn.svm import SVC
+from sklearn.mixture import DPGMM
+from sklearn.mixture import GMM 
+from sklearn.mixture import GaussianMixture
+from sklearn.mixture import VBGMM
